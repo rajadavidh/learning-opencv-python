@@ -90,6 +90,12 @@ python3
 >>> cv2.__version__
 '3.4.2'
 ```
+Running code sample after installation:
+```
+python test_webcam.py
+```
+
+#### Troubleshooting installation
 If found error after `import cv2` like:
 ```
 RuntimeError: module compiled against API version 0xc but this version of numpy is 0xb
