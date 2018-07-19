@@ -24,25 +24,6 @@ This project includes code examples from his tutorials.
 1. Haar Cascade Object Detection Face & Eye
 1. Creating your own Haar Cascade
 
-## Code Examples
-1. Loading Image
-1. Loading Video Source
-1. Drawing and Writing on image 
-1. Image Operations
-1. Image Arithmetics
-1. Thresholding
-1. Color filtering
-1. Blurring and Smoothing
-1. Morphological Transformations
-1. Canny Edge Detection and Gradients
-1. Template Matching
-1. GrabCut Foreground Extraction
-1. Corner Detection
-1. Feature Matching (Homography) Brute force
-1. MOG background reduction
-1. Haar Cascade Object Detection Face & Eye
-1. Creating your own Haar Cascade
-
 ## Preparation
 ### For Mac OSX
 #### Install Xcode
