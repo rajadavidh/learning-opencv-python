@@ -24,6 +24,25 @@ This project includes code examples from his tutorials.
 1. Haar Cascade Object Detection Face & Eye
 1. Creating your own Haar Cascade
 
+## Code Examples
+1. Loading Image
+1. Loading Video Source
+1. Drawing and Writing on image 
+1. Image Operations
+1. Image Arithmetics
+1. Thresholding
+1. Color filtering
+1. Blurring and Smoothing
+1. Morphological Transformations
+1. Canny Edge Detection and Gradients
+1. Template Matching
+1. GrabCut Foreground Extraction
+1. Corner Detection
+1. Feature Matching (Homography) Brute force
+1. MOG background reduction
+1. Haar Cascade Object Detection Face & Eye
+1. Creating your own Haar Cascade
+
 ## Preparation
 ### For Mac OSX
 #### Install Xcode
@@ -53,27 +72,55 @@ brew link python      # creates symlinks to python3 installation in Cellar
 brew link python@2    # creates symlinks to python2 installation in Cellar
 ```
 
-Check whether Python using homebrew install correctly
+Check whether Python using homebrew install correctly:
 ```
 which python2  # it should output /usr/local/bin/python2
 which python3  # it should output /usr/local/bin/python3
 ```
 
-Check Python versions
+Check Python versions:
 ```
 python2 --version  # it should output Python 2.7.15
 python3 --version  # it should output Python 3.7.0
 ```
 
 #### Install OpenCV
-Todo
+Tap to repo:
 ```
 brew tap brewsci/bio  # previous repo: homebrew/science
-brew install opencv3 --with-contrib --with-python3 --HEAD
 ```
-Todo: linking opencv libray
+Below command produced error on my machine: 
+```
+brew install opencv3 --with-contrib --with-python3 --HEAD  # "Error: No head is defined for opencv"
+```
+This command worked on my machine:
+```
+brew install opencv3 --with-contrib --with-python3
+```
+Verifying that OpenCV 3 has been installed:
+```
+python
+>>> import cv2
+>>> cv2.__version__
+'3.4.2'
 
-
+python3
+>>> import cv2
+>>> cv2.__version__
+'3.4.2'
+```
+If found error after `import cv2` like:
+```
+RuntimeError: module compiled against API version 0xc but this version of numpy is 0xb
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: numpy.core.multiarray failed to import
+```
+We can solve it by [updating numpy installation](https://stackoverflow.com/questions/20518632/importerror-numpy-core-multiarray-failed-to-import):
+```
+pip install -U numpy   # for python2
+pip3 install -U numpy  # for python3
+```
 #### References:
 * http://docs.python-guide.org/en/latest/starting/install/osx/
 * https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-mac/
