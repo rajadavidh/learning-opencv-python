@@ -1,4 +1,4 @@
-# Learning OpenCV in Python
+# Learning OpenCV in Python (in progress)
 Thanks to Harrison Kinsley for his tutorials, OpenCV with Python Intro and loading Images.  
 
 If you are looking for the complete explanation, you can find it here: https://pythonprogramming.net/loading-images-python-opencv-tutorial/
