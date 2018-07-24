@@ -1,0 +1,1 @@
+# Run command: python _05_image_arithmetics.py

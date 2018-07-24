@@ -1,0 +1,1 @@
+# Run command: python _12_grabcut_foreground_extract.py

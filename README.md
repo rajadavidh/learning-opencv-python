@@ -24,6 +24,9 @@ This project includes code examples from his tutorials.
 1. Haar Cascade Object Detection Face & Eye
 1. Creating your own Haar Cascade
 
+Further reading for tutorials:
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
+
 ## Preparation
 ### For Mac OSX
 #### Install Xcode
