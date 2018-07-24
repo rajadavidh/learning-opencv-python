@@ -1,8 +1,10 @@
 # Source: https://www.codingforentrepreneurs.com/blog/opencv-python-web-camera-quick-test/
 # Run command: python test_webcam.py
 
-# import numpy as np
+# Importing libraries as shortcut
+import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 
 
 # Setup webcam
