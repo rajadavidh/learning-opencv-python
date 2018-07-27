@@ -120,6 +120,6 @@ pip3 install -U numpy  # for python3
 
 ### For Ubuntu
 #### Install Python
-Todo
+(Todo)
 #### Install OpenCV
-Todo
+(Todo)
