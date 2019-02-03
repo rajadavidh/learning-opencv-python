@@ -136,6 +136,6 @@ brew install eigen tbb
 
 ### For Ubuntu
 #### Install Python
-(Todo)
+(TODO)
 #### Install OpenCV
-(Todo)
+(TODO)
