@@ -68,7 +68,7 @@ python2 --version  # it should output Python 2.7.15
 python3 --version  # it should output Python 3.7.0
 ```
 
-#### Install OpenCV
+##### Install OpenCV 3
 Tap to repo:
 ```
 brew tap brewsci/bio  # previous repo: homebrew/science
@@ -117,6 +117,15 @@ pip3 install -U numpy  # for python3
 * https://github.com/Homebrew/homebrew-science/issues/6617
 * https://www.pyimagesearch.com/2016/12/19/install-opencv-3-on-macos-with-homebrew-the-easy-way/
 * https://www.learnopencv.com/install-opencv3-on-macos/
+
+#### Install OpenCV 3 (Update: January 2019)
+OpenCV 4 was released on November 20th, 2018
+
+(TODO)
+
+#### References:
+* https://www.learnopencv.com/install-opencv-4-on-macos/
+* https://www.pyimagesearch.com/2018/08/17/install-opencv-4-on-macos/
 
 ### For Ubuntu
 #### Install Python
