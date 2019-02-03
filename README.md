@@ -11,18 +11,18 @@ This project includes code examples from his tutorials.
 1. Drawing and Writing on image 
 1. Image Operations
 1. Image Arithmetics
-1. Thresholding
-1. Color filtering
-1. Blurring and Smoothing
-1. Morphological Transformations
-1. Canny Edge Detection and Gradients
-1. Template Matching
-1. GrabCut Foreground Extraction
-1. Corner Detection
-1. Feature Matching (Homography) Brute force
-1. MOG background reduction
-1. Haar Cascade Object Detection Face & Eye
-1. Creating your own Haar Cascade
+1. Thresholding (TODO)
+1. Color filtering (TODO)
+1. Blurring and Smoothing (TODO)
+1. Morphological Transformations (TODO)
+1. Canny Edge Detection and Gradients (TODO)
+1. Template Matching (TODO)
+1. GrabCut Foreground Extraction (TODO)
+1. Corner Detection (TODO)
+1. Feature Matching (Homography) Brute force (TODO)
+1. MOG background reduction (TODO)
+1. Haar Cascade Object Detection Face & Eye (TODO)
+1. Creating your own Haar Cascade (TODO)
 
 Further reading for tutorials:
 * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
