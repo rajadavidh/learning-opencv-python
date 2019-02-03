@@ -13,8 +13,12 @@ import cv2
 # Load lowlight image
 img = cv2.imread('../data/bookpage.jpg')
 
+# Apply simple threshold
+retval, threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)  # Value lower than 12 --> black
+
 # Show the image
-# cv2.imshow('result', img)
+cv2.imshow('original', img)
+cv2.imshow('threshold', threshold)
 
 # Wait until any key is pressed
 cv2.waitKey(0)
