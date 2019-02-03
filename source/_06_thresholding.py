@@ -22,10 +22,14 @@ retval, threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)  # Value lowe
 greyscaled = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 retval2, threshold2 = cv2.threshold(greyscaled, 12, 255, cv2.THRESH_BINARY)  # Value lower than 12 --> black
 
+# Apply adaptive thresholding from greyscaled image
+gaus = cv2.adaptiveThreshold(greyscaled, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 115, 1)
+
 # Show the image
 cv2.imshow('original', img)
 cv2.imshow('threshold', threshold)
 cv2.imshow('threshold from grayscale', threshold2)
+cv2.imshow('adaptive threshold', gaus)
 
 # Wait until any key is pressed
 cv2.waitKey(0)
