@@ -27,11 +27,15 @@ retval2, threshold2 = cv2.threshold(greyscaled, 12, 255, cv2.THRESH_BINARY)  # V
 # Apply adaptive thresholding from greyscaled image
 gaus = cv2.adaptiveThreshold(greyscaled, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 115, 1)
 
+# Apply Otsu's threshold. However the result will not well for this case.
+retval3, otsu = cv2.threshold(greyscaled, 125, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+
 # Show the image
 cv2.imshow('original', img)
 cv2.imshow('threshold', threshold)
 cv2.imshow('threshold from grayscale', threshold2)
 cv2.imshow('adaptive threshold', gaus)
+cv2.imshow('Otsu threshold', otsu)
 
 # Wait until any key is pressed
 cv2.waitKey(0)
