@@ -121,6 +121,13 @@ pip3 install -U numpy  # for python3
 #### Install OpenCV 3 (Update: January 2019)
 OpenCV 4 was released on November 20th, 2018
 
+Install supporting libraries
+```
+brew install cmake pkg-config
+brew install jpeg libpng libtiff openexr
+brew install eigen tbb
+```
+
 (TODO)
 
 #### References:
