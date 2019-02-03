@@ -10,6 +10,9 @@ import numpy as np
 import cv2
 # import matplotlib.pyplot as plt
 
+# Load lowlight image
+img = cv2.imread('../data/bookpage.jpg')
+
 # Show the image
 # cv2.imshow('result', img)
 
