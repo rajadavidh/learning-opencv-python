@@ -18,7 +18,7 @@ img = cv2.imread('../data/bookpage.jpg')
 # Apply simple threshold
 retval, threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)  # Value lower than 12 --> black
 
-# Convert to greyscale and Apply threshold
+# Convert to greyscale from original image and Apply threshold
 greyscaled = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 retval2, threshold2 = cv2.threshold(greyscaled, 12, 255, cv2.THRESH_BINARY)  # Value lower than 12 --> black
 
