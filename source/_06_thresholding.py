@@ -4,8 +4,10 @@
 # then everything that was 125 and under would be converted to 0, or black.
 # Everything above 125 would be converted to 255, or white
 
-# We practice thresholding using lowlight image of bookpage.
+# We implement thresholding using lowlight image of bookpage
 # The purpose is to make that book page readable from human eye
+# In this case, we practice 3 samples of thresholding: Simple, Adaptive, and Otsu
+# We can use these techniques based on problem we want to solve
 
 # Importing libraries as shortcut
 import numpy as np
