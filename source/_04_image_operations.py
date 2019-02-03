@@ -12,7 +12,7 @@ img = cv2.imread('../data/fisher-anyer-beach-2016-raja-david.jpg', cv2.IMREAD_CO
 # px = img[55, 55]
 # print(px)  # produce actual color for specific pixel
 
-# Modifu specific pixel color value
+# Modify specific pixel color value
 img[55, 55] = [255, 0, 255]
 px = img[55, 55]
 print(px)
@@ -21,7 +21,7 @@ print(px)
 # roi = img[0:100, 100:150]
 # print(roi)
 
-# Modifu ROI color value
+# Modify ROI color value
 img[100:200, 100:150] = [255, 0, 255]
 
 # Get cropped area
