@@ -6,23 +6,23 @@ If you are looking for the complete explanation, you can find it here: https://p
 This project includes code examples from his tutorials.
 
 ## Code Examples
-1. Loading Image
-1. Loading Video Source
-1. Drawing and Writing on image 
-1. Image Operations
-1. Image Arithmetics
-1. Thresholding (TODO)
-1. Color filtering (TODO)
-1. Blurring and Smoothing (TODO)
-1. Morphological Transformations (TODO)
-1. Canny Edge Detection and Gradients (TODO)
-1. Template Matching (TODO)
-1. GrabCut Foreground Extraction (TODO)
-1. Corner Detection (TODO)
-1. Feature Matching (Homography) Brute force (TODO)
-1. MOG background reduction (TODO)
-1. Haar Cascade Object Detection Face & Eye (TODO)
-1. Creating your own Haar Cascade (TODO)
+- [x] [Loading Image](source/_01_loading_image.py)
+- [x] [Loading Video Source](source/_02_loading_video_source.py)
+- [x] [Drawing and Writing on image](source/_03_drawing_writing_image.py)
+- [x] [Image Operations](source/_04_image_operations.py)
+- [x] [Image Arithmetics](source/_05_image_arithmetics.py)
+- [x] [Thresholding](source/_06_thresholding.py)
+- [ ] [Color filtering](source/_07_color_filtering.py)
+- [ ] [Blurring and Smoothing](source/_08_blurring_smoothing.py)
+- [ ] [Morphological Transformations](source/_09_morphological_transformation.py)
+- [ ] [Canny Edge Detection and Gradients](source/_10_canny_edge.py)
+- [ ] [Template Matching](source/_11_template_matching.py)
+- [ ] [GrabCut Foreground Extraction](source/_12_grabcut_foreground_extract.py)
+- [ ] [Corner Detection](source/_13_corner_detection.py)
+- [ ] [Feature Matching (Homography) Brute force](source/_14_feature_matching.py)
+- [ ] [MOG background reduction](source/_15_mog_background_reduction.py)
+- [ ] [Haar Cascade Object Detection Face & Eye](source/_16_haar_cascade.py)
+- [ ] [Creating your own Haar Cascade](source/_17_haar_cascade_custom.py)
 
 Further reading for tutorials:
 * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
