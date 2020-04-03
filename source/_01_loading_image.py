@@ -18,7 +18,7 @@ img = cv2.imread('../data/fisher-anyer-beach-2016-raja-david.jpg', cv2.IMREAD_GR
 # cv2.destroyAllWindows()
 
 # Show the image using matplotlib
-# OpenCV is using BGR and Matplotlib is using RGB, so we are using greyscale
+#  OpenCV is using BGR and Matplotlib is using RGB, so we are using greyscale
 plt.imshow(img, cmap='gray', interpolation='bicubic')
 plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
 plt.plot([100, 0], [100, 200], 'c', linewidth=5)  # draw cyan colored line in the image

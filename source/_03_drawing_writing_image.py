@@ -15,7 +15,7 @@ cv2.line(img, (0, 0), (20, 100), (245, 245, 245), 10)
 cv2.rectangle(img, (15, 25), (200, 150), (255, 0, 255), 10)
 
 # Drawing circle
-# '-1' for thickness means we will get a filled in circle.
+#  x'-1' for thickness means we will get a filled in circle.
 cv2.circle(img, (447, 63), 63, (0, 255, 0), -1)
 
 # Drawing polygons
