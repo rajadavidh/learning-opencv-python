@@ -10,8 +10,14 @@ import cv2
 #   `0` means camera #1
 cap = cv2.VideoCapture(0)
 
+# Set image size
+#  Source: https://techoverflow.net/2018/12/18/how-to-set-cv2-videocapture-image-size/
+# Set properties. Each returns == True on success (i.e. correct resolution)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 160)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 120)
+
 # Looping the captures to get all images from camera
-while(1):
+while 1:
     # What is the purpose of the single underscore `_` variable in Python?
     #  It's just a variable name, and it's conventional in python to use _ for throwaway variables.
     #  It just indicates that the loop variable isn't actually used.
