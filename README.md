@@ -27,7 +27,14 @@ This project includes code examples from his tutorials.
 Further reading for tutorials:
 * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
 
-## Preparation
+## Run command
+* Open terminal
+* Go to each file and run this:
+    ```sh
+    python2 filename.py
+    ```
+
+## System setup and Troubleshooting
 ### For Mac OSX
 #### Install Xcode
 Open terminal and type:
