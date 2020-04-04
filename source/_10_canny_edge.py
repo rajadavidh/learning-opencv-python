@@ -50,7 +50,7 @@ while 1:
     cv2.imshow('Sobely', sobely)
     cv2.imshow('Edges', edges)
 
-    # Wait until any key is pressed
+    # Wait until `Esc` key is pressed
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
         break

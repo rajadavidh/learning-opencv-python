@@ -56,7 +56,7 @@ while 1:
     cv2.imshow('Opening', opening)
     cv2.imshow('Closing', closing)
 
-    # Wait until any key is pressed
+    # Wait until `Esc` key is pressed
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
         break
