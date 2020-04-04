@@ -1,13 +1,10 @@
 # Learning OpenCV in Python (in progress)
-Thanks to Harrison Kinsley for his tutorials, OpenCV with Python Intro and loading Images.  
-
-If you are looking for the complete explanation, you can find it [here](https://pythonprogramming.net/loading-images-python-opencv-tutorial/).
-
-This project includes code examples from his tutorials and other resources.
+This repo contains my personal notes and resources about learning OpenCV in Python programming language
 
 ## Contents
 * [Code Examples](#code)
 * [Reading resources](#read)
+* [Websites related to OpenCV for Python](#website)
 * [Run command](#run)
 * [System setup and Troubleshooting](#setup-troubleshoot)
     * [For Mac OSX](#mac)
@@ -35,6 +32,11 @@ This project includes code examples from his tutorials and other resources.
     * Cleaning images and creating description files
     * Training Haar Cascade object detection
     * Haar Cascade for image and video object classification
+    
+### Credit
+Thanks to Harrison Kinsley for his tutorials, OpenCV with Python Intro and loading Images.  
+
+If you are looking for the complete explanation, you can find it [here](https://pythonprogramming.net/loading-images-python-opencv-tutorial/).
 
 ## Reading resources <a name="read"></a>
 ### Open CV Tutorial and Documentation
@@ -78,6 +80,10 @@ This project includes code examples from his tutorials and other resources.
     *  https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html
 * Creating your own Haar Cascade
     * https://docs.opencv.org/master/dc/d88/tutorial_traincascade.html
+
+## Websites related to OpenCV for Python <a name="website"></a>
+* [Pysource](https://pysource.com/)
+* [Pyimagesearch](https://www.pyimagesearch.com/)
 
 ## Run command <a name="run"></a>
 * Open terminal
