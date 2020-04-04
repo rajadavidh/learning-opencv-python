@@ -28,8 +28,10 @@ This project includes code examples from his tutorials.
 - [ ] [Training Haar Cascade object detection]()
 - [ ] [Haar Cascade for image and video object classification]()
 
-Further reading for tutorials:
-* https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
+## Additional reading resources:
+* Official master docs: https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
+* Unofficial docs: https://opencv-python-tutroals.readthedocs.io/en/latest/index.html
+* All documentation: https://docs.opencv.org/
 
 ## Run command
 * Open terminal
