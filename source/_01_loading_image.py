@@ -6,6 +6,11 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image and covert to greyscale color
+#  We must use relative link `../image_location` to avoid `cv2.error: (-215:Assertion failed) VScn::contains(scn)`
+#  Source:
+#  https://answers.opencv.org/question/212087/trying-to-convert-bgr-to-gray/
+#  https://github.com/llSourcell/Object_Detection_demo_LIVE/issues/6#issue-353775712
+#  https://stackoverflow.com/questions/52739143/opencv-error-215assertion-failed-vscncontainsscn-vdcncontainsdcn
 img = cv2.imread('../data/fisher-anyer-beach-2016-raja-david.jpg', cv2.IMREAD_GRAYSCALE)
 
 # # Show the image
