@@ -17,11 +17,11 @@ import cv2
 
 # Utilize Face cascade:
 # https://github.com/Itseez/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
-face_cascade = cv2.CascadeClassifier('../cascade/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('../haar-cascade/haarcascade_frontalface_default.xml')
 
 # Utilize Eye cascade:
 # https://github.com/Itseez/opencv/blob/master/data/haarcascades/haarcascade_eye.xml
-eye_cascade = cv2.CascadeClassifier('../cascade/haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier('../haar-cascade/haarcascade_eye.xml')
 
 # Get the video image from camera
 #   `0` means camera #1
