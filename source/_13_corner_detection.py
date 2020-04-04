@@ -22,7 +22,6 @@ corners = iter(np.int0(corners))
 
 # Make a circle at each point that is detected as a corner
 for corner in corners:
-    print(corner)
     x, y = corner.ravel()
     cv2.circle(img, (x, y), 3, 255, -1)
 
