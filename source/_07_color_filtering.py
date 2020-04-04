@@ -34,11 +34,11 @@ while 1:
     upper_red = np.array([255, 255, 180])
 
     mask = cv2.inRange(hsv, lower_red, upper_red)
-    res = cv2.bitwise_and(frame, frame, mask=mask)
+    result = cv2.bitwise_and(frame, frame, mask=mask)
 
     cv2.imshow('frame', frame)
     cv2.imshow('mask', mask)
-    cv2.imshow('res', res)
+    cv2.imshow('result', result)
 
     # Wait until any key is pressed
     k = cv2.waitKey(5) & 0xFF
