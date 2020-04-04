@@ -91,7 +91,10 @@ We create positive images from negative images
     ```sh
     $ nohup opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20 &
     ```
-    If above command interrupted, we can resume the process by running above command again.
+    If above command interrupted, we can resume the process by running above command again. To see the progress we can run:
+    ```sh
+    $ tail -f nohup.out
+    ```
   
 * Wait until file `cascade.xml` is produced in `data` directory.
 * Download `cascade.xml` and put at the same directory as file [`haar-cascade-custom.py`](/haar-cascade-custom/haar-cascade-custom.py)
