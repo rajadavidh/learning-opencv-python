@@ -47,7 +47,11 @@ while 1:
     #  image, reject levels, level weights.
     watches = watch_cascade.detectMultiScale(gray, 50, 50)
     for (x, y, w, h) in watches:
-        cv2.rectangle(img, (x, y), (x + w, y + h), (255, 255, 0), 2)
+        # cv2.rectangle(img, (x, y), (x + w, y + h), (255, 255, 0), 2)
+
+        # Since the rectangle is small, we change it as text
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(img, 'Watch', (x - w, y - h), font, 0.5, (11, 255, 255), 2, cv2.LINE_AA)
 
     # Detect faces
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
