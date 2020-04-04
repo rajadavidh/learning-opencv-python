@@ -1,4 +1,6 @@
 # Run command: python _03_drawing_writing_image.py
+# Further reading:
+# https://docs.opencv.org/master/dc/da5/tutorial_py_drawing_functions.html
 
 # Importing libraries as shortcut
 import numpy as np

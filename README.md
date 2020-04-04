@@ -31,10 +31,10 @@ This project includes code examples from his tutorials and other resources.
 - [ ] [MOG background reduction](source/_15_mog_background_reduction.py)
 - [ ] [Haar Cascade Object Detection Face & Eye](source/_16_haar_cascade.py)
 - [ ] [Creating your own Haar Cascade](source/_17_haar_cascade_custom.py)
-- [ ] [Gathering image for Haar Cascade]()
-- [ ] [Cleaning images and creating description files]()
-- [ ] [Training Haar Cascade object detection]()
-- [ ] [Haar Cascade for image and video object classification]()
+    * Gathering image for Haar Cascade
+    * Cleaning images and creating description files
+    * Training Haar Cascade object detection
+    * Haar Cascade for image and video object classification
 
 ## Reading resources <a name="read"></a>
 ### Open CV Tutorial and Documentation
@@ -43,7 +43,41 @@ This project includes code examples from his tutorials and other resources.
 * All documentation: https://docs.opencv.org/
 
 ### Further reading
-(TODO)
+* Loading Image
+    * https://docs.opencv.org/master/dc/d2e/tutorial_py_image_display.html
+* Loading Video Source
+    * https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html
+    * https://www.codingforentrepreneurs.com/blog/opencv-python-web-camera-quick-test/
+* Drawing and Writing on image
+    * https://docs.opencv.org/master/dc/da5/tutorial_py_drawing_functions.html
+* Image Operations
+    * https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html
+* Image Arithmetics
+    * https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html
+* Thresholding
+    * https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html
+* Color filtering
+    * https://docs.opencv.org/master/df/d9d/tutorial_py_colorspaces.html
+* Blurring and Smoothing
+    * https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html
+* Morphological Transformations
+    * https://docs.opencv.org/master/d9/d61/tutorial_py_morphological_ops.html
+* Canny Edge Detection and Gradients
+    * https://docs.opencv.org/master/da/d22/tutorial_py_canny.html
+* Template Matching
+    * https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html
+* GrabCut Foreground Extraction
+    * https://docs.opencv.org/master/d8/d83/tutorial_py_grabcut.html
+* Corner Detection
+    * https://docs.opencv.org/master/d4/d8c/tutorial_py_shi_tomasi.html
+* Feature Matching (Homography) Brute force
+    * https://docs.opencv.org/master/d1/de0/tutorial_py_feature_homography.html
+* MOG background reduction
+    * https://docs.opencv.org/master/d1/dc5/tutorial_background_subtraction.html
+* Haar Cascade Object Detection Face & Eye
+    *  https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html
+* Creating your own Haar Cascade
+    * https://docs.opencv.org/master/dc/d88/tutorial_traincascade.html
 
 ## Run command <a name="run"></a>
 * Open terminal

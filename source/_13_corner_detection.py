@@ -1,4 +1,8 @@
 # Run command: python _13_corner_detection.py
+# The purpose of detecting corner is to track things like motion,
+# do 3D modeling, and recognize objects, shapes, and characters
+# Further reading:
+# https://docs.opencv.org/master/d4/d8c/tutorial_py_shi_tomasi.html
 
 # Importing libraries as shortcut
 import numpy as np

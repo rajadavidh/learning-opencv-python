@@ -1,6 +1,8 @@
 # Run command: python _11_template_matching.py
 # We are going to implement basic object recognition by
 # finding identical regions of an image that match a template we provide
+# Further reading:
+# https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html
 
 # Importing libraries as shortcut
 import numpy as np

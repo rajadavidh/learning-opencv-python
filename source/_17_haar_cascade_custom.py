@@ -1,5 +1,8 @@
 # Run command: python _17_haar_cascade_custom.py
 
+# Further reading:
+# https://docs.opencv.org/master/dc/d88/tutorial_traincascade.html
+
 # Importing libraries as shortcut
 import numpy as np
 import cv2

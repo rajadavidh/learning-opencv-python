@@ -1,5 +1,7 @@
 # Run command: python _07_color_filtering.py
 # To filter the color, we need to convert the color to HSV (Hue Saturation Value)
+# Further reading:
+# https://docs.opencv.org/master/df/d9d/tutorial_py_colorspaces.html
 
 # Importing libraries as shortcut
 import numpy as np

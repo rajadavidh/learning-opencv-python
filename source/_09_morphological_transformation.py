@@ -8,6 +8,9 @@
 #  Opening --> remove false positive (noise in the background)
 #  Closing --> remove false negative (noise in the object)
 
+# Further reading:
+# https://docs.opencv.org/master/d9/d61/tutorial_py_morphological_ops.html
+
 # Importing libraries as shortcut
 import numpy as np
 import cv2

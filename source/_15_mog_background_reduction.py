@@ -1,5 +1,8 @@
 # Run command: python _15_mog_background_reduction.py
 
+# Further reading:
+# https://docs.opencv.org/master/d1/dc5/tutorial_background_subtraction.html
+
 # Importing libraries as shortcut
 import numpy as np
 import cv2

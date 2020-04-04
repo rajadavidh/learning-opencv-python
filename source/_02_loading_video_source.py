@@ -1,10 +1,12 @@
-# Additional Source: https://www.codingforentrepreneurs.com/blog/opencv-python-web-camera-quick-test/
 # Run command: python _02_loading_video_source.py
+# Further reading:
+# https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html
+# https://www.codingforentrepreneurs.com/blog/opencv-python-web-camera-quick-test/
 
 # Importing libraries as shortcut
-import numpy as np
+# import numpy as np
 import cv2
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # Setup webcam

@@ -1,7 +1,9 @@
 # Run command: python _04_image_operations.py
+# Further reading:
+# https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html
 
 # Importing libraries as shortcut
-import numpy as np
+# import numpy as np
 import cv2
 # import matplotlib.pyplot as plt
 

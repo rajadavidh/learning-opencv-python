@@ -1,5 +1,8 @@
 # Run command: python _16_haar_cascade.py
 
+# Further reading:
+# https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html
+
 # Importing libraries as shortcut
 import numpy as np
 import cv2

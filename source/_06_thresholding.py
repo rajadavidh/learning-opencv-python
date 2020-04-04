@@ -9,8 +9,11 @@
 # In this case, we practice 3 samples of thresholding: Simple, Adaptive, and Otsu
 # We can use these techniques based on problem we want to solve
 
+# Further reading:
+# https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html
+
 # Importing libraries as shortcut
-import numpy as np
+# import numpy as np
 import cv2
 # import matplotlib.pyplot as plt
 

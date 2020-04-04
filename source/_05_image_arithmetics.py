@@ -1,7 +1,9 @@
 # Run command: python _05_image_arithmetics.py
+# Further reading:
+# https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html
 
 # Importing libraries as shortcut
-import numpy as np
+# import numpy as np
 import cv2
 # import matplotlib.pyplot as plt
 

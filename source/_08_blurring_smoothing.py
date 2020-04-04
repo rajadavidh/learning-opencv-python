@@ -1,5 +1,7 @@
 # Run command: python _08_blurring_smoothing.py
 # We are going to reduce noise from color filtering
+# Further reading:
+# https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html
 
 # Importing libraries as shortcut
 import numpy as np

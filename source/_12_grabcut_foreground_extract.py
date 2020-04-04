@@ -2,6 +2,8 @@
 # Comments from youtube video:
 # The nice thing about Grab Cut is that you can improve the segmentation result
 # by marking certain pixels as "definitely foreground" and others as "definitely background"
+# Further reading:
+# https://docs.opencv.org/master/d8/d83/tutorial_py_grabcut.html
 
 # Importing libraries as shortcut
 import numpy as np

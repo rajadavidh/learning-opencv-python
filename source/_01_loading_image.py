@@ -1,7 +1,9 @@
 # Run command: python3 _01_loading_image.py
+# Further reading:
+# https://docs.opencv.org/master/dc/d2e/tutorial_py_image_display.html
 
 # Importing libraries as shortcut
-import numpy as np
+# import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 

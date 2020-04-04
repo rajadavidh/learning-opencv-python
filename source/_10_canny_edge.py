@@ -1,6 +1,8 @@
 # Run command: python _10_canny_edge.py
 # Image gradients: To measure directional intensity
 # Canny Edge: Find edges in image using Canny algorithm
+# Further reading:
+# https://docs.opencv.org/master/da/d22/tutorial_py_canny.html
 
 # Importing libraries as shortcut
 import numpy as np

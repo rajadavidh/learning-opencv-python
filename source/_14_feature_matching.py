@@ -1,5 +1,8 @@
 # Run command: python _14_feature_matching.py
 
+# Further reading:
+# https://docs.opencv.org/master/d1/de0/tutorial_py_feature_homography.html
+
 # Importing libraries as shortcut
 import numpy as np
 import cv2
