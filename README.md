@@ -9,6 +9,7 @@ This repo contains my personal notes and resources about learning OpenCV in Pyth
 * [System setup and Troubleshooting](#setup-troubleshoot)
     * [For Mac OSX](#mac)
     * [For Ubuntu](#ubuntu)
+* [GUI Lesson: PyQt5](/gui)
 
 ## Code Examples <a name="code"></a>
 These examples using OpenCV 3 from Python 2.7
