@@ -16,7 +16,7 @@ import numpy as np
 import cv2
 # import matplotlib.pyplot as plt
 
-# Get the image from video
+# Get the video image from camera
 #   `0` means camera #1
 cap = cv2.VideoCapture(0)
 
