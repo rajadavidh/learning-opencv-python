@@ -26,7 +26,7 @@ This repo contains my personal notes and resources about learning OpenCV in Pyth
 - [x] [Corner Detection](source/_13_corner_detection.py)
 - [x] [Feature Matching (Homography) Brute force](source/_14_feature_matching.py)
 - [x] [MOG background reduction](source/_15_mog_background_reduction.py)
-- [ ] [Haar Cascade Object Detection Face & Eye](source/_16_haar_cascade.py)
+- [x] [Haar Cascade Object Detection Face & Eye](source/_16_haar_cascade.py)
 - [ ] [Creating your own Haar Cascade](source/_17_haar_cascade_custom.py)
     * Gathering image for Haar Cascade
     * Cleaning images and creating description files
