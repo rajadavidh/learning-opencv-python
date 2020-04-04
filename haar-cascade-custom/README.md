@@ -6,6 +6,16 @@ To build a Haar Cascade, we need positive and negative images:
 * Positive images: contains object we want to find. We can have only 1 of this positive image
 * Negative images: random images excluding positive image. We need few thousands images for negative images
 
+## Steps to create custom Haar Cascade
+1. Collect Negative or Background images
+    * Any image will do, just make sure the object we want to find is not included. Get thousands.
+2. Collect or Create Positive images
+    * Thousands of image of the object we want to find. Can make these based on one image, or manually create them.
+3. Create a positive vector file by stitching together all positives
+    * We can create this using OpenCV command
+4. Train cascade
+    * We can run this using OpenCV command
+
 ## Create image vector
 We create positive images from negative images
 
