@@ -30,11 +30,12 @@ These examples using OpenCV 3 from Python 2.7
 - [x] [Feature Matching (Homography) Brute force](source/_14_feature_matching.py)
 - [x] [MOG background reduction](source/_15_mog_background_reduction.py)
 - [x] [Haar Cascade Object Detection Face & Eye](source/_16_haar_cascade.py)
-- [ ] [Creating your own Haar Cascade](haar_cascade_custom)
-    - [ ] Gathering image for Haar Cascade
-    - [ ] Cleaning images and creating description files
-    - [ ] Training Haar Cascade object detection
-    - [ ] Haar Cascade for image and video object classification
+- [x] [Creating your own Haar Cascade](haar-cascade-custom)
+    - [x] Intro Custom Haar Cascade
+    - [x] Gathering image for Haar Cascade
+    - [x] Cleaning images and creating description files
+    - [x] Training Haar Cascade object detection
+    - [x] Haar Cascade for image and video object classification
     
 ### Credit
 Thanks to Harrison Kinsley for his tutorials, OpenCV with Python Intro and loading Images.  
