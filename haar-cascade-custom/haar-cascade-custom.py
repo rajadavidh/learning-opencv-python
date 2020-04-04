@@ -24,7 +24,7 @@ face_cascade = cv2.CascadeClassifier('../cascade/haarcascade_frontalface_default
 eye_cascade = cv2.CascadeClassifier('../cascade/haarcascade_eye.xml')
 
 # Utilize Watch cascade we just made
-watch_cascade = cv2.CascadeClassifier('watchcascade10stage.xml')
+watch_cascade = cv2.CascadeClassifier('../data/stage0.xml')
 
 # Get the video image from camera
 #   `0` means camera #1
