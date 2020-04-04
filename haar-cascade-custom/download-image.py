@@ -78,7 +78,7 @@ def create_pos_n_neg():
             if file_type == 'pos':
                 line = file_type + '/' + img + ' 1 0 0 50 50\n'
                 # with open('info.dat', 'a') as f:
-                with open('info.txt', 'a') as f:
+                with open('info.lst', 'a') as f:
                     f.write(line)
             elif file_type == 'neg':
                 line = file_type + '/' + img + '\n'
