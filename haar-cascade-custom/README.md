@@ -1,10 +1,25 @@
 # Building Custom Haar Cascade
 
 ## Overview
-To build a Haar Cascade, we need positive and negative images:
+To build a custom Haar Cascade, we need positive and negative images:
 
-* Positive images: contains object we want to find. We can have only 1 of this positive image
-* Negative images: random images excluding positive image. We need few thousands images for negative images
+### Negative and Positive images
+#### Negative images
+* Random images excluding positive image. 
+* We need few thousands images for negative images
+* File `bg.txt` that contains path to each image line by line e.g: `neg/1.jpg`
+
+#### Positive images
+* Contains object we want to find. 
+* We can have only 1 of this positive image and create the rest of these from negative images
+* File `pos.txt` or `info` that contains path to each image line by line along with how many objects and where the objects located in the image e.g: `pos/1.jpg 1 0 0 50 50` (image, num_objects, x_position, y_position, rectangle_size)
+
+### Notes
+* Negative images quantity > Positive images quantity. If we create positive samples manually from negative samples
+* Start by using small images:
+  * 100x100 for Negatives
+  * 50x50 for Positives
+* Positive image should be doubled for training
 
 ## Steps to create custom Haar Cascade
 1. Collect Negative or Background images
@@ -33,7 +48,8 @@ We create positive images from negative images
     ``` 
 * Create positive images based on `watch5050.jpg`. Run this command on terminal:
     ```sh
-    opencv_createsamples -img watch5050.jpg -bg bg.txt -info info/info.lst -pngoutput info -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 1950
+    $ cd haar-cascade-custom
+    $ opencv_createsamples -img watch5050.jpg -bg bg.txt -info info/info.lst -pngoutput info -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 1950
     ```
     The result should produce file `info.lst` with contents:
     ```
@@ -42,7 +58,7 @@ We create positive images from negative images
     filename + how many of your objects is in the image + all locations (x, y, width, height)
 * Create positive image vector
     ```sh
-    opencv_createsamples -info info/info.lst -num 1950 -w 20 -h 20 -vec positives.vec
+    $ opencv_createsamples -info info/info.lst -num 1950 -w 20 -h 20 -vec positives.vec
     ```
 
 ## Train the cascade
@@ -50,29 +66,33 @@ We create positive images from negative images
 * The new project structure will be like:
     ```
     opencv_workspace
-    --neg
+    --neg               --> Negative images
     ----negimages.jpg
     --opencv
-    --info
-    --data
+    --info              --> Positive images
+    ----posimages.jpg
+    --data              --> Cascade files
+    ----*.xml
     --positives.vec 
     --bg.txt
     --watch5050.jpg
     ```
 * Run the training command on terminal:
     ```sh
-    opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20
+    $ opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20
     ```
     Note that we use significantly less `numPos` than we have. This is to make room for the stages, which will add to this.
     
-    General concensus is, for most practices, you want to have `2:1` ratio of `pos:neg` images.
+    General consensus is, for most practices, you want to have `2:1` ratio of `pos:neg` images.
     
     Next, we have stages. We can use 10-20 stages. More stages means more longer training process will take.
     
-    We can run the command overnight using this command:
+    Above command takes ~4hours. We can run the command overnight using this command:
     ```sh
-    nohup opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20 &
+    $ nohup opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20 &
     ```
+    If above command interrupted, we can resume the process by running above command again.
+  
 * Wait until file `cascade.xml` is produced in `data` directory.
 * Download `cascade.xml` and put at the same directory as file [`haar-cascade-custom.py`](/haar-cascade-custom/haar-cascade-custom.py)
     * In the example at [`haar-cascade-custom.py`](/haar-cascade-custom/haar-cascade-custom.py), we renamed the cascade file to `watchcascade10stage.xml`
