@@ -12,10 +12,10 @@ This project includes code examples from his tutorials.
 - [x] [Image Operations](source/_04_image_operations.py)
 - [x] [Image Arithmetics](source/_05_image_arithmetics.py)
 - [x] [Thresholding](source/_06_thresholding.py)
-- [ ] [Color filtering](source/_07_color_filtering.py)
-- [ ] [Blurring and Smoothing](source/_08_blurring_smoothing.py)
-- [ ] [Morphological Transformations](source/_09_morphological_transformation.py)
-- [ ] [Canny Edge Detection and Gradients](source/_10_canny_edge.py)
+- [x] [Color filtering](source/_07_color_filtering.py)
+- [x] [Blurring and Smoothing](source/_08_blurring_smoothing.py)
+- [x] [Morphological Transformations](source/_09_morphological_transformation.py)
+- [x] [Canny Edge Detection and Gradients](source/_10_canny_edge.py)
 - [ ] [Template Matching](source/_11_template_matching.py)
 - [ ] [GrabCut Foreground Extraction](source/_12_grabcut_foreground_extract.py)
 - [ ] [Corner Detection](source/_13_corner_detection.py)
@@ -23,6 +23,10 @@ This project includes code examples from his tutorials.
 - [ ] [MOG background reduction](source/_15_mog_background_reduction.py)
 - [ ] [Haar Cascade Object Detection Face & Eye](source/_16_haar_cascade.py)
 - [ ] [Creating your own Haar Cascade](source/_17_haar_cascade_custom.py)
+- [ ] [Gathering image for Haar Cascade]()
+- [ ] [Cleaning images and creating description files]()
+- [ ] [Training Haar Cascade object detection]()
+- [ ] [Haar Cascade for image and video object classification]()
 
 Further reading for tutorials:
 * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
