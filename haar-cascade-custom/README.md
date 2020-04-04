@@ -66,5 +66,4 @@ We create positive images from negative images
 * Wait until file `cascade.xml` is produced in `data` directory.
 * Download `cascade.xml` and put at the same directory as file [`haar-cascade-custom.py`](/haar-cascade-custom/haar-cascade-custom.py)
     * In the example at [`haar-cascade-custom.py`](/haar-cascade-custom/haar-cascade-custom.py), we renamed the cascade file to `watchcascade10stage.xml`
-
-
+    * Typical Haar Cascade file should be around `100-2,000KB` in size
