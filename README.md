@@ -1,4 +1,4 @@
-# Learning OpenCV in Python (in progress)
+# Learning OpenCV in Python
 This repo contains my personal notes and resources about learning OpenCV in Python programming language
 
 ## Contents
